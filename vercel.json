@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/predict",
+      "destination": "https://harishvijayasarangan-dr-server.hf.space/predict"
+    },
+    {
+      "source": "/health",
+      "destination": "https://harishvijayasarangan-dr-server.hf.space/health"
+    }
+  ]
+}
